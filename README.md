@@ -12,3 +12,7 @@
 2-SELECT first_name,last_name FROM actor WHERE first_name IN ('Penelope','Nick','Ed');
 3-SELECT replacement_cost,rental_rate FROM film WHERE (replacement_cost IN (12.99,15.99,28.99) AND (rental_rate IN (0.99,2.99,4.99))); 
 ******************************************************************************************
+
+ÖDEV 3
+1-SELECT country FROM country WHERE country LIKE 'A%a';
+2-SELECT country FROM country WHERE country LIKE '%_____n';
