@@ -48,4 +48,38 @@
 4-SELECT country_id,COUNT(*) FROM city GROUP BY country_id ORDER BY COUNT(*) DESC LIMIT 1 ;
 ****************************************************************************************************
 
+ÖDEV 8
+1-CREATE TABLE employee(
+	id INT, 
+	name VARCHAR(50),
+	birthday DATE,
+	email VARCHAR(100));
+2-mockaroo
+3-UPDATE employee
+SET name='DRSRMGL'
+WHERE id=4
+--SET birthday='2002-10-10'
+--WHERE id=3;
+--SET birthday='1995-08-15'
+--WHERE id=7;
 
+--SET birthday='1987-04-25'
+--WHERE id=12;
+
+--SET birthday='1999-12-01'
+--WHERE id=9;
+
+RETURNING *;
+4-DELETE FROM employee
+
+WHERE id=4
+
+--WHERE id=3;
+--WHERE id=7;
+
+--WHERE id=12;
+
+--WHERE id=9;
+
+RETURNING *;
+*********************************************************************************************
