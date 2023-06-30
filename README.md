@@ -83,3 +83,11 @@ WHERE id=4
 
 RETURNING *;
 *********************************************************************************************
+ÖDEV 9
+1-SELECT city,country FROM city
+INNER JOIN country ON city.country_id=country.country_id;
+2-SELECT first_name,last_name,payment_id FROM payment
+INNER JOIN customer ON payment.customer_id=customer.customer_id
+3-SELECT first_name,last_name,rental_id FROM rental
+INNER JOIN customer ON rental.customer_id=customer.customer_id
+**************************************************************************************************************
