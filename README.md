@@ -99,3 +99,16 @@ RIGHT JOIN payment ON customer.customer_id=payment.customer_id
 3-SELECT rental_id, first_name, last_name FROM customer
 FULL JOIN rental ON rental.customer_id=customer.customer_id;
 *****************************************************************************************************************
+ÖDEV 11
+1-(SELECT first_name FROM actor)
+UNION
+(SELECT first_name FROM customer)
+2-(SELECT first_name FROM actor)
+INTERSECT
+(SELECT first_name FROM customer)
+3-(SELECT first_name FROM actor)
+EXCEPT
+(SELECT first_name FROM customer)
+4- ALL 
+******************************************************************************************************************
+
